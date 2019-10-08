@@ -53,12 +53,12 @@
   </url>
   
   <url>
-    <loc>https://liman.dev/categories/programming/</loc>
+    <loc>https://liman.dev/tags/programming/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://liman.dev/tags/programming/</loc>
+    <loc>https://liman.dev/categories/programming/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
   </url>
   
@@ -103,6 +103,10 @@
   
   <url>
     <loc>https://liman.dev/faq/</loc>
+  </url>
+  
+  <url>
+    <loc>https://liman.dev/kullanim/</loc>
   </url>
   
 </urlset>

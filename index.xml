@@ -86,5 +86,16 @@ Please feel free to contact us, our customer service center is working for you 2
 1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
     </item>
     
+    <item>
+      <title>KULLANIM</title>
+      <link>https://liman.dev/kullanim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://liman.dev/kullanim/</guid>
+      <description>Etki alanı yapısına göre kullanım Mevcut durumda Liman MYS, LDAPv3 protokolünü kullanarak Aktif Dizin ve SAMBA DC&amp;rsquo;leri ve bu LDAP kaynalarının içerisinde bulunan nesneleri uzaktan kontrol edebilmektedir.
+1. Sadece Aktif Dizin bulunması Sadece Aktif Dizin bulunan sistemde Pardus ve Debian tabanlı GNU/Linux dağıtımları Aktif Dizin etki alanına dahil edilir ve yönetilmeye başlanır.
+ Aktif Dizin üzerindeki GPO&amp;rsquo;lar Windows işletim sistemine uygun yazıldığı için Kaptan ve Tayfa servis-ajan yapısının oluşturulması gerekmekte.</description>
+    </item>
+    
   </channel>
 </rss>

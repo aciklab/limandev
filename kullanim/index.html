@@ -6,15 +6,15 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Categories</title>
+  <title>KULLANIM</title>
   <meta name="author" content="" />
 
   
-  <meta name="keywords" content="devows, hugo, go">	
+  <meta name="keywords" content="Kullanım senaryoları, Aktif Dizin, SAMBA">
   
 
   
-  <meta name="description" content="Site template made by devcows using hugo">	
+  <meta name="description" content="Kullanım Senaryoları">
   
 
   <meta name="generator" content="Hugo 0.58.3" />
@@ -58,14 +58,14 @@
   
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@GoHugoIO">
-  <meta name="twitter:title" content="Categories">
+  <meta name="twitter:title" content="KULLANIM">
   <meta name="twitter:image" content="https://liman.dev/img/twitter-default.png">
-  <meta name="twitter:description" content="Site template made by devcows using hugo">
+  <meta name="twitter:description" content="Kullanım Senaryoları">
 
   
-  <meta property="og:title" content="Categories" />
+  <meta property="og:title" content="KULLANIM" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://liman.dev/categories//" />
+  <meta property="og:url" content="https://liman.dev/kullanim//" />
   <meta property="og:image" content="img/logo.png" />
 
 </head>
@@ -84,9 +84,9 @@
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand home" href="https://liman.dev/">
-                    <img src="https://liman.dev/img/logo.png" alt="Categories logo" class="hidden-xs hidden-sm">
-                    <img src="https://liman.dev/img/logo-small.png" alt="Categories logo" class="visible-xs visible-sm">
-                    <span class="sr-only">Categories - </span>
+                    <img src="https://liman.dev/img/logo.png" alt="KULLANIM logo" class="hidden-xs hidden-sm">
+                    <img src="https://liman.dev/img/logo-small.png" alt="KULLANIM logo" class="visible-xs visible-sm">
+                    <span class="sr-only">KULLANIM - </span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -109,7 +109,7 @@
                   </li>
                   
                   
-                  <li class="dropdown">
+                  <li class="dropdown active">
                     
                     <a href="/kullanim/">KULLANIM</a>
                     
@@ -164,7 +164,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Categories</h1>
+                <h1>KULLANIM</h1>
             </div>
         </div>
     </div>
@@ -172,139 +172,61 @@
 
 
         <div id="content">
+            
+
             <div class="container">
+
                 <div class="row">
-                    
 
-                    <div class="col-md-9" id="blog-listing-medium">
+                    <div class="col-md-12">
 
-                        
-                        
+                        <div>
+                          
 
-                        <ul class="pager">
-                            
-                            <li class="previous disabled"><a href="#">&larr; </a></li>
-                            
+<h1 id="etki-alanı-yapısına-göre-kullanım">Etki alanı yapısına göre kullanım</h1>
 
-                            
-                            <li class="next disabled"><a href="#"> &rarr;</a></li>
-                            
-                        </ul>
-                    </div>
-                    
+<p>Mevcut durumda Liman MYS, LDAPv3 protokolünü kullanarak Aktif Dizin ve SAMBA DC&rsquo;leri ve bu LDAP kaynalarının içerisinde bulunan nesneleri uzaktan kontrol edebilmektedir.</p>
 
-                    
+<p><img src="/img/liman/domainliman.gif" alt="image alt text" /></p>
 
-                    
+<h2 id="1-sadece-aktif-dizin-bulunması">1. Sadece Aktif Dizin bulunması</h2>
 
-                    <div class="col-md-3">
+<p>Sadece Aktif Dizin bulunan sistemde Pardus ve Debian tabanlı GNU/Linux dağıtımları Aktif Dizin etki alanına dahil edilir ve yönetilmeye başlanır.</p>
 
-                        
+<ul>
+<li>Aktif Dizin üzerindeki GPO&rsquo;lar Windows işletim sistemine uygun yazıldığı için Kaptan ve Tayfa servis-ajan yapısının oluşturulması gerekmekte.</li>
+<li>Aktif Dizin bağımlılığından kurtulunmamış olunur.</li>
+<li>Uygun analiz ve test süreçleri sonrasında ileriki süreçte SAMBA DC&rsquo;ye göç ve daha öncesinde ortak kullanım olanakları planlanabilir.</li>
+</ul>
 
-                        
+<h2 id="2-aktif-dizin-ve-samba-dc-ortak-kullanımı">2. Aktif Dizin ve SAMBA DC ortak kullanımı</h2>
 
-<div class="panel panel-default sidebar-menu">
+<p>Aktif Dizin var olan bir ortamda uygun analiz ve test süreçleri sonrasında, mevcut etki alanına yeni bir SAMBA DC etki alanı denetçisi eklenerek çalıştırılır. Fakat burada bilinmesi gereken en önemli nokta her iki denetçi birbirleri ile replikasyon yaptığından dolayı hem Windows hem GNU/Linux makineler ve politikalar her iki denetçide de bulunmakta.</p>
 
-    <div class="panel-heading">
-      <h3 class="panel-title"></h3>
-    </div>
+<ul>
+<li>İleriki süreçte Aktif Dizin bağımlılığından kurtulunduğunda ortamda sadece SAMBA DC kullanılacak göç planlanabilir.</li>
+</ul>
 
-    <div class="panel-body">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
-            <div class="input-group">
-                <input type="search" name="q" class="form-control" placeholder="">
-                <input type="hidden" name="sitesearch" value="https://liman.dev/">
-                <span class="input-group-btn">
-                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
-                </span>
-            </div>
-        </form>
-    </div>
-</div>
+<h2 id="3-yeni-bir-samba-dc-etki-alanı-kullanılması">3. Yeni bir SAMBA DC etki alanı kullanılması</h2>
 
+<p>Herhangi bir etki alanı içeriği alınmadan yeni bir etki alanı topolojisiyle oluşturulacak bir yapı bulunmaktadır.</p>
 
+<hr />
 
+<blockquote>
+<p>ÖZET</p>
+</blockquote>
 
-
-
-
-<div class="panel panel-default sidebar-menu">
-
-    <div class="panel-heading">
-      <h3 class="panel-title"></h3>
-    </div>
-
-    <div class="panel-body">
-        <ul class="nav nav-pills nav-stacked">
-            
-            <li><a href="https://liman.dev/categories/lorem">lorem (1)</a>
-            </li>
-            
-            <li><a href="https://liman.dev/categories/programming">programming (2)</a>
-            </li>
-            
-            <li><a href="https://liman.dev/categories/pseudo">pseudo (1)</a>
-            </li>
-            
-            <li><a href="https://liman.dev/categories/starting">starting (1)</a>
-            </li>
-            
-        </ul>
-    </div>
-</div>
-
-
-
-
-
-
-
-
-<div class="panel sidebar-menu">
-    <div class="panel-heading">
-      <h3 class="panel-title"></h3>
-    </div>
-
-    <div class="panel-body">
-        <ul class="tag-cloud">
-            
-            <li><a href="https://liman.dev/tags/go"><i class="fa fa-tags"></i> go</a>
-            </li>
-            
-            <li><a href="https://liman.dev/tags/golang"><i class="fa fa-tags"></i> golang</a>
-            </li>
-            
-            <li><a href="https://liman.dev/tags/hugo"><i class="fa fa-tags"></i> hugo</a>
-            </li>
-            
-            <li><a href="https://liman.dev/tags/ipsum"><i class="fa fa-tags"></i> ipsum</a>
-            </li>
-            
-            <li><a href="https://liman.dev/tags/programming"><i class="fa fa-tags"></i> programming</a>
-            </li>
-            
-            <li><a href="https://liman.dev/tags/theme"><i class="fa fa-tags"></i> theme</a>
-            </li>
-            
-        </ul>
-    </div>
-</div>
-
-
-
-
-
-
-                        
+                        </div>
 
                     </div>
-                    
-
-                    
 
                 </div>
                 
+
             </div>
+            
+
             
         </div>
         
