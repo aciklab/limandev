@@ -1,22 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ipsum on Liman Merkezi Yönetim Sistemi</title>
-    <link>https://liman.dev/tags/ipsum/</link>
-    <description>Recent content in ipsum on Liman Merkezi Yönetim Sistemi</description>
+    <title>ipsum on Liman.dev - Merkezi Yönetim Sistemi</title>
+    <link>https://example.org/tags/ipsum/</link>
+    <description>Recent content in ipsum on Liman.dev - Merkezi Yönetim Sistemi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Oct 2015 13:07:31 +0200</lastBuildDate>
     
-	<atom:link href="https://liman.dev/tags/ipsum/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.org/tags/ipsum/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Migrate from Jekyll</title>
-      <link>https://liman.dev/blog/2015/10/10/migrate-from-jekyll/</link>
-      <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
+      <link>https://example.org/blog/1/01/01/migrate-from-jekyll/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://liman.dev/blog/2015/10/10/migrate-from-jekyll/</guid>
+      <guid>https://example.org/blog/1/01/01/migrate-from-jekyll/</guid>
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
 ▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
