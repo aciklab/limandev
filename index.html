@@ -3,18 +3,18 @@
 
 	
 
-	<title>Liman.dev - OpenSource Management System</title>
+	<title>Liman - Central Management System</title>
 
   <meta name="description" content="It allows you to centrally manage all servers in your IT processes remotely, with stable and secure. You can improve the features with expandable extensions and modules">
 
-	<meta property="og:title" content="Liman Dev">
+	<meta property="og:title" content="Liman - Central Management System">
 	<meta property="og:type" content="website">
 	<meta property="og:description" content="It allows you to centrally manage all servers in your IT processes remotely, with stable and secure. You can improve the features with expandable extensions and modules">
 	<meta property="og:image" content="https://www.liman.dev/liman_files/ana_ekran.png">
 
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:creator" content="@limandev">
-	<meta name="twitter:title" content="Liman Dev">
+	<meta name="twitter:title" content="Liman - Central Management System">
 	<meta name="twitter:description" content="It allows you to centrally manage all servers in your IT processes remotely, with stable and secure. You can improve the features with expandable extensions and modules">
 	<meta name="twitter:image:src" content="https://www.liman.dev/liman_files/ana_ekran.png">
 
@@ -207,6 +207,44 @@
     width: 110px;
     height: 36px;
 }
+
+/* Style buttons */
+.btn {
+    background-color: #497EB2;
+
+  border-width: 1px;
+  border-color:black;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+
+
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #5E95CB;
+  border-width: 1px;
+  border-color:black;
+}
+
+.container {
+  height: 10px;
+  position: relative;
+
+
+  
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  left: 66%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 </style></head>
 
 
@@ -258,9 +296,21 @@
 
           <a href="https://docs.liman.dev/start/"><img src="liman_files/ana_ekran.png" alt="Liman Docs"><span>Liman Docs →</span><div class="fade"></div></a>
 
+         
+ 
+        
+
         </div>
 
-      </div>
+        <div class="container">
+            <div class="center">
+                <button class="btn" type="button" onclick="window.open('https://docs.liman.dev/start/installing','_blank')">Install</button>
+            </div>
+          </div>
+      
+        
+
+      
 
     </div>
 
